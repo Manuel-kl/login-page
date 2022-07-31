@@ -1,0 +1,131 @@
+#tweets-body {
+    background-color: var(--bodytile);
+    margin-top: 10px;
+    border-radius: 16px;
+    height: fit-content;
+}
+
+#tweets-body .post .name .post-first img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#tweets-body .post .name .post-first {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+#tweets-body .post .name {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+}
+
+#tweets-body .post .name .user-h {
+    margin-left: 15px;
+}
+
+#tweets-body .post .name .user-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#tweets-body .post .name .user-profile h2 {
+    margin: 0 10px 5px 0;
+    font-size: 16px;
+}
+
+#tweets-body .post-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding: 0 20px 0 85px;
+    line-height: 25px;
+}
+
+#tweets-body .post-text .image-tweet {
+    width: 100%;
+    border-radius: 16px;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+#tweets-body .post-text .post-reactions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+#tweets-body .post-text .post-reactions .reactions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#tweets-body .post-text .post-reactions .reactions img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+#tweets-body .post-text .post-reactions .reactions .share {
+    background-color: var(--mainblue);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#tweets-body .post-text .post-reactions .reactions .retweets-icon {
+    background-color: var(--retweetgreen);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#tweets-body .post-text .post-reactions .reactions .like-icon {
+    background-color: var(--likered);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#tweets-body .react-tweet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+#tweets-body .react-tweet .react-t {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: var(--maingray);
+    margin-right: 8px;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 0 5px;
+}
+
+#tweets-body .react-tweet .react-share {
+    padding: 5px;
+    border: 1px solid var(--maingray);
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#tweets-body .react-tweet .react-t img {
+    margin-right: 5px;
+}
+
+#tweets-body .react-tweet {}
+
+#tweets-body .react-tweet {}

@@ -11,6 +11,7 @@
     flex-direction: row;
     align-items: center;
     margin: 30px;
+    top: 0;
 }
 
 .name {
@@ -28,11 +29,18 @@
 
 .message {
     display: flex;
-    height: 20rem;
+    height: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: 'Raleway', sans-serif;
+}
+
+.message-welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .message .h {
@@ -61,5 +69,19 @@
     width: 200px;
     height: 40px;
     cursor: pointer;
+    transition: 1s;
     font-size: 20px;
+}
+
+.signin button:hover {
+    background-color: white;
+    color: var(--maingreen);
+    transition: 1s;
+    border: 3px solid white;
+    margin-left: 6px;
+}
+
+.signin .sign-in-p {
+    font-size: 20px;
+    margin: 20px;
 }

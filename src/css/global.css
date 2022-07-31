@@ -4,12 +4,50 @@
 }
 
 :root {
+    /* registration and login page */
     --maingreen: rgb(58, 177, 155);
-    --maingray: rgb(244, 248, 247);
+    --lightgray: rgb(244, 248, 247);
+    /* homepage */
+    --backgroundblack: #06141d;
+    --bodytile: #26333d;
+    --mainblue: #2c80fd;
+    --maingray: #657380;
+    --retweetgreen: #25ca98;
+    --likered: #f24f6c;
 }
 
 .body {
     display: grid;
     grid-template-columns: 2fr 3fr;
     grid-column-gap: 30px;
+}
+
+.homepage {
+    background-color: var(--backgroundblack);
+    padding: 20px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 20px;
+}
+
+.left-side-grid {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    min-width: 328px;
+}
+
+.right-side-grid {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-;
+    min-width: 328px;
+}
+
+.center-grid {
+    display: flex;
+    flex-direction: column;
 }

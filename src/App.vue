@@ -1,14 +1,11 @@
 <template>
-  <div class="body">
-    <WelcomePage />
-    <LoginPage />
+  <div>
+    <router-view />
   </div>
 </template>
 <script>
-import WelcomePage from "../src/components/WelcomePage.vue";
-import LoginPage from "../src/components/LoginPage.vue";
 export default {
-  components: { WelcomePage, LoginPage },
+  components: {},
   props: {},
   data() {
     return {};

@@ -1,0 +1,77 @@
+#users {
+    background-color: var(--bodytile);
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 16px;
+    height: fit-content;
+    max-width: 288px;
+    min-width: 200px;
+    padding: 20px;
+}
+
+#users .header {
+    display: flex;
+    color: white;
+    padding: 10px;
+}
+
+#users .header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#users .more-users img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#users .more-users {
+    display: flex;
+    flex-direction: column;
+}
+
+#users .more-users .user-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 14px 0;
+}
+
+#users .more-users .user-container .user h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+#users .more-users .user-container .user p {
+    color: var(--maingray);
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+#users .more-users .user-container .user {
+    width: fit-content;
+    color: white;
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-name {
+    margin-left: 10px;
+    width: fit-content;
+}
+
+#users .more-users .user-container button {
+    background-color: white;
+    width: 85px;
+    border: none;
+    height: 35px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 600;
+}

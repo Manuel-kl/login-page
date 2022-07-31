@@ -1,0 +1,81 @@
+#tweets {
+    background-color: var(--bodytile);
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding-bottom: 15px;
+    border-radius: 16px;
+}
+
+#tweets .tweet-input {
+    display: flex;
+    height: 50px;
+    padding: 15px 20px;
+    align-items: center;
+}
+
+#tweet input .new-tweets {
+    outline: none;
+    outline: 7px solid blue;
+}
+
+.tweet-input img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.tweet-input input {
+    height: 50px;
+    flex: 1;
+    border-radius: 5px;
+    background-color: var(--maingray);
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 0 10px 0 20px;
+}
+
+.tweet-input input::placeholder {
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tweets .files {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 12px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#tweets .files img {
+    width: 25px;
+    height: 25px;
+}
+
+#tweets .files span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid var(--maingray);
+    border-radius: 50px;
+    margin-right: 5px;
+    width: 80px;
+    height: 15px;
+}
+
+#tweets .files h2 {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+#tweets .files .img {
+    width: 15px;
+    height: 15px;
+}

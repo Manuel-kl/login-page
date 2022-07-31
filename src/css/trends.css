@@ -1,0 +1,72 @@
+#trends {
+    background-color: var(--bodytile);
+    padding: 20px;
+    border-radius: 16px;
+    height: fit-content;
+    max-width: 288px;
+    min-width: 200px;
+}
+
+#trends li {
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0 10px 0;
+}
+
+#trends h3 {
+    color: var(--maingray);
+    font-size: 15px;
+    padding: 20px 0;
+    border-top: 1px solid var(--maingray);
+}
+
+.title-trends {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding: 0 0 20px 0;
+}
+
+.title-trends h2,
+.current-trends h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+}
+
+.title-trends img {
+    width: 24px;
+    height: 24px;
+}
+
+.current-trends img {
+    width: 24px;
+    height: 24px;
+}
+
+.current-trends li span {
+    display: flex;
+    flex-direction: column;
+}
+
+.current-trends p {
+    color: var(--maingray);
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#trends a,
+#users a {
+    display: flex;
+    justify-content: center;
+    color: var(--mainblue);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px;
+}
