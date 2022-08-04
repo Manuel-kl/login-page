@@ -19,7 +19,9 @@
             </div>
         </section>
         <section class="signup">
-            <button>SIGN IN</button>
+            <router-link to="/">
+                <button>SIGN IN</button>
+            </router-link>
         </section>
     </div>
 </template>

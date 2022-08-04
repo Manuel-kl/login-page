@@ -10,12 +10,13 @@ export default {
   data() {
     return {};
   },
-  created() {},
+  created() { },
   methods: {},
-  mounted() {},
+  mounted() { },
 };
 </script>
-<style scoped></style>
+<style scoped>
+</style>
 <style lang="css" scoped>
 @import "../src/css/app.css";
 </style>

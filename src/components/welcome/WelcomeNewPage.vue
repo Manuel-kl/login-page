@@ -17,7 +17,9 @@
       </section>
       <section class="signin">
         <p class="sign-in-p">Already having an account?</p>
-        <button>SIGN UP</button>
+        <router-link to="/login">
+          <button>SIGN IN</button>
+        </router-link>
       </section>
     </section>
   </div>

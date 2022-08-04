@@ -23,8 +23,11 @@
         <input type="password" placeholder="Enter your password" />
       </div>
     </section>
+
     <section class="signup">
-      <button>SIGN UP</button>
+      <form @submit.prevent="registerUser">
+        <button @submit.prevent="registerUser">SIGN UP</button>
+      </form>
     </section>
   </div>
 </template>
@@ -37,7 +40,12 @@ export default {
     return {};
   },
   created() { },
-  methods: {},
+  methods: {
+    registerUser() {
+      console.log('user registered');
+
+    }
+  },
   mounted() { },
 };
 </script>
