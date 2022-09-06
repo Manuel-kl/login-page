@@ -1,0 +1,9 @@
+#account_options {
+    display: none;
+}
+
+#account-options .account-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
